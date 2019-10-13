@@ -1,7 +1,7 @@
 # Trash Collector System
 
 The project consists of constructing a trash collector robot using LEGOs and TETRIX.
-##Algorithm:
+## Algorithm:
 Step1:START
 Step2:[clamp function]
 Initialize the names of the motors A and C
@@ -51,7 +51,7 @@ Step6:for(i=0;I greater than 10; i=i+1)
 Step8:		clamp function is to be called
 Step9: STOP
 
-##Description:
+## Description:
 1.The robot consists of 3 motors with servo motors attached to the motors. The motors are labelled as A,B,C.
 2.Motor B is attached with the clamping mechanism, the motor rotates at a specific angle such that the mechanism that is attached to the motor appears like a robot hand clamping or holding
 an object.
