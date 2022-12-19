@@ -1,4 +1,4 @@
-# Trash Collector System
+# Wall-E (Trash Collector Robot)
 
 The project consists of constructing a trash collector robot using LEGOs and TETRIX.
 ## Algorithm:
@@ -52,12 +52,12 @@ Step8:		clamp function is to be called
 Step9: STOP
 
 ## Description:
-1.The robot consists of 3 motors with servo motors attached to the motors. The motors are labelled as A,B,C.
-2.Motor B is attached with the clamping mechanism, the motor rotates at a specific angle such that the mechanism that is attached to the motor appears like a robot hand clamping or holding
+* The robot consists of 3 motors with servo motors attached to the motors. The motors are labelled as A,B,C.
+* Motor B is attached with the clamping mechanism, the motor rotates at a specific angle such that the mechanism that is attached to the motor appears like a robot hand clamping or holding
 an object.
-3.The motors A and C serve the locomotive functionality to the robot which facilitates in the robot's movement.
-4. The two motors have to be in synch whenever they are moving hence synchroniztion is mentioned between A and C with A acting as master and C as slave.
-5. The motor rotates for an angle of 180 degrees detecting any object in its vicinity with the help of ultrasonic sensor.
-6. The robot moves for some distance forward, stops and scans the entire semicircle area in front of it to detect any object.
-7. Upon detection of an object the clamping mechanism function is called which rotates motor B so that the object in front of the robot is held or clamped.
-8. The detected object is collected in a tray or storage provided at the back of the robot.
+* The motors A and C serve the locomotive functionality to the robot which facilitates in the robot's movement.
+* The two motors have to be in synch whenever they are moving hence synchroniztion is mentioned between A and C with A acting as master and C as slave.
+* The motor rotates for an angle of 180 degrees detecting any object in its vicinity with the help of ultrasonic sensor.
+* The robot moves for some distance forward, stops and scans the entire semicircle area in front of it to detect any object.
+* Upon detection of an object the clamping mechanism function is called which rotates motor B so that the object in front of the robot is held or clamped.
+* The detected object is collected in a tray or storage provided at the back of the robot.
